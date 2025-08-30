@@ -1,0 +1,36 @@
+@use '../variables' as *;
+
+.text-xs {
+	font-size: $font-xs;
+}
+.text-sm {
+	font-size: $font-sm;
+}
+.text-md {
+	font-size: $font-md;
+}
+
+//18
+.text-lg {
+	font-size: $font-lg;
+	font-weight: 400;
+	line-height: 2.5rem;
+	text-wrap: nowrap;
+	color: $color_white;
+}
+
+//20
+.text-xl {
+	font-size: $font-xl;
+}
+.text-xxl {
+	font-size: $font-xxl;
+}
+.text-hero {
+	font-size: $font-hero;
+	font-weight: 500;
+	font-style: Medium;
+	line-height: 1;
+	text-wrap: nowrap;
+	color: $color_white;
+}

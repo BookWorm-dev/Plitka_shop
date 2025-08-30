@@ -6,13 +6,14 @@
 
 $color_white: #fff;
 $color_black: #000;
+$color_blue: #397dc6;
 
 // $color_accent: #2947a9;
 // $color_title: #292e3d;
 
 // $color_hover: #F9995D;
 
-// $font_1: "Work Sans", sans-serif;
+$font_1: 'Poppins', sans-serif;
 $transition_dur: 0.3s;
 
 // breakpoints
@@ -24,3 +25,12 @@ $point_5: 767.98px;
 $point_6: 480px;
 $point_7: 375px; /* ! */
 $point_8: 374.98px; /* ! */
+
+// типографическая шкала
+$font-xs: 1.4rem; // 12px
+$font-sm: 1.5rem; // 14px
+$font-md: 1.6rem; // 16px
+$font-lg: 1.8rem; // 32px
+$font-xl: 2rem; // 20px
+$font-xxl: 5rem; // 24px
+$font-hero: 6.4rem; // 48px

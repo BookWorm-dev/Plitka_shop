@@ -1,0 +1,72 @@
+@use './helpers/abstracts' as *;
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2.6rem 20rem 0;
+
+	&__controls {
+		display: flex;
+		align-items: center;
+		gap: 2.1rem;
+	}
+	&__search,
+	&__history,
+	&__profile {
+		width: 2.4rem;
+		height: 2.4rem;
+		@extend %bg-contain;
+	}
+
+	&__search {
+		background-image: url('../imgs/search.png');
+	}
+
+	&__history {
+		background-image: url('../imgs/bag.png');
+	}
+
+	&__profile {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		width: 5rem;
+		height: 5rem;
+		background-color: $color_white;
+		border-radius: 50%;
+
+		&::after {
+			content: '';
+			background: url(../../imgs/woman.svg) center / contain no-repeat;
+			width: 2.6rem;
+			height: 3rem;
+		}
+	}
+}
+
+.logo_in {
+	max-width: 100%;
+	width: 26.2rem;
+	height: 3.3rem;
+	.logo__img {
+		@extend %contain_img;
+	}
+}
+
+.nav_list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 4.3rem;
+	.text-lg {
+		color: $color_white;
+		transition: transform 0.3s ease-in-out;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+}
