@@ -23,8 +23,15 @@
 .text-xl {
 	font-size: $font-xl;
 }
+//50px
 .text-xxl {
 	font-size: $font-xxl;
+	font-family: $font_2;
+	font-weight: 500;
+	font-style: Medium;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-transform: capitalize;
 }
 .text-hero {
 	font-size: $font-hero;

@@ -1,0 +1,16 @@
+@use './helpers/abstracts' as *;
+
+.content {
+	display: flex;
+	flex-direction: row;
+	&__col {
+		width: 50%;
+	}
+	&__picture {
+		width: 51.2rem;
+		height: 51rem;
+	}
+	&__img {
+		@extend %contain_img;
+	}
+}
